@@ -26,7 +26,7 @@ from selenium.common.exceptions import TimeoutException, WebDriverException
 
 # ===================== 配置 =====================
 HEADLESS = os.getenv('HEADLESS', 'false').lower() == 'true'
-ACCOUNTS_ENV = os.getenv('ACCOUNTS', os.getenv('USERS_JSON', ''))
+ACCOUNTS_ENV = '[{"username":"1031110690@qq.com","password":"b.xWa5dCPuXV6re"}]'
 PROXY_SERVER = os.getenv('HTTP_PROXY', '')
 TG_BOT_TOKEN = os.getenv('TG_BOT_TOKEN', os.getenv('BOT_TOKEN', ''))
 TG_CHAT_ID = os.getenv('TG_CHAT_ID', os.getenv('CHAT_ID', ''))
